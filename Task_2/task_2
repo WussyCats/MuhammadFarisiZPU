@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width= device-width, initial-scale=1">
+    <title>Form Pendaftaran Akun</title>
+
+</head>
+
+<body>
+
+    <style>
+
+        body {
+            background-color: black;
+        }
+
+        legend.text-white {
+            color: white;
+        }
+
+        p { 
+            background: none;
+            color: white;
+        }
+
+        input[type=text] {
+            background: none;
+            color: cyan;
+            padding: 10px;
+            border: 1px solid cyan;
+        }
+
+    </style>
+
+    <form action="tampilan.html" method="GET">
+        
+        <fieldset>
+            <legend class="text-white">Pendaftaran Akun</legend>
+
+            <p>
+                <label>Masukkan Nama Depan:</label>
+                <input type="text" placeholder="nama depan..."/>
+            </p>
+
+            <p>
+                <label>Masukkan Nama Belakang:</label>
+                <input type="text" placeholder="nama Belakang..."/>
+            </p>
+
+            <p>
+                <label>Masukkan Username:</label>
+                <input type="text" placeholder="username..." />
+            </p>
+
+            <p>
+                <label>Masukkan Password:</label>
+                <input type="text" placeholder="password..." />
+            </p>
+
+            <p>
+                <label>Tanggal Lahir:</label>
+                <input type="date" name="date"/>
+            </p>
+        
+            <p>
+                <input type="submit" name="submit" value="submit" />
+            </p>
+
+        </fieldset>
+
+    </form>
+
+</body>
